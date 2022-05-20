@@ -8,6 +8,7 @@ using namespace std;
  int main( int argc, char** argv )
  {
     VideoCapture cap(0); //capture the video from webcam
-    
+	printf("Video captured");
+	    
     return 0;
  }
