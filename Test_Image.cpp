@@ -8,7 +8,6 @@ using namespace std;
  int main( int argc, char** argv )
  {
     VideoCapture cap(0); //capture the video from webcam
-<<<<<<< HEAD
 
   if (!cap.isOpened()) {
     cerr << "ERROR: Unable to open the camera" << endl;
@@ -35,8 +34,5 @@ using namespace std;
   destroyAllWindows();
   cout << "bye!" <<endl;
   return 0;
-=======
-	    
->>>>>>> 9e23cb0ad42ae5935a6895b76e38ad26d3327e39
-    return 0;
+	
  }
